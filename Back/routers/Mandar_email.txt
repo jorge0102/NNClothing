@@ -1,0 +1,68 @@
+const { Router } = require("express");
+const nodemailer = require("nodemailer");
+const sha1 = require('sha1');
+
+const router = Router();
+const Users = require('../models/User')
+
+// Mandamos Usuarios a la base de datos para registrarse
+router.post('/create/user', (req, res) => {
+    
+    const user = new Users();
+    const { username, password, email } = req.body;
+
+    user.username = username;
+    user.password = sha1(password);
+    user.email = email;
+
+    user.save((err, userStored) => {
+        try{
+            res.status(200).send({ user: userStored});
+        }catch{
+            if(err) res.status(500).send({ message: 'Error al guardar' })
+        }
+    })
+});
+
+
+
+router.post("/send", async (req, res) => {
+    const { username, password, email } = req.body;
+
+    console.log(req.body);
+
+    contenHTML = `
+        
+        <h1>Informacion</h1>
+        <ul>
+            <li>Nombre: ${name}</li>
+            <li>Email: ${email}</li>
+            <li>Phone: ${phone}</li>
+        </ul>
+        <p>Mensaje: ${message}</p>
+
+    `
+    const transporter = nodemailer.createTransport({
+        host: 'smtp.nnclothing.store',
+        port: 25,
+        secure: false,
+        auth: {
+            user: 'info@nnclothing.store',
+            pass: '010203040506'
+        },
+        tls: {
+            rejectUnauthorized: false
+        }
+    })
+
+    const info = await transporter.sendMail({
+        from: "'NnClothing' <info@nnclothing.store>",
+        to: 'jorge_yog@hotmail.com',
+        subject: 'Comprobacion',
+        html: contenHTML
+    });
+    console.log("enviado", info.messageId);
+});
+
+module.exports = router;
+
