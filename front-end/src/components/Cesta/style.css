@@ -1,0 +1,81 @@
+.divCarro{
+    height: 500px;
+}
+
+.scroll{
+    background-color: #FFFAF2;
+    height: 600px;
+    overflow: auto;
+}
+
+.scroll::-webkit-scrollbar {
+    display: none !important;  
+}
+
+.divCarro2{
+    height: 500px;
+}
+
+.botonPay{
+    margin-bottom: 15px;
+}
+
+.subDivCarro{
+    margin-top: 41px;
+    height: 200px;
+    background-color: #FFFAF2;
+    margin-left: 20px;
+}
+
+.imaSubDiv{
+    background-color: #FFFAF2;
+    height: 200px; 
+    width: 250px;
+}
+
+.tabla{
+    border-bottom: 1px rgba(53, 53, 53, 0.384) solid;
+    background-color: #FFFAF2;
+}
+
+.textDivCarro{
+    border-bottom: 1px rgba(53, 53, 53, 0.384) solid;
+    text-align: center;
+    margin-top: 41px;
+    background-color: #FFFAF2;
+}
+
+.imagenCarro{
+    width:100%;
+}
+
+.fondo{
+    background-color: #FFFAF2;
+
+}
+
+
+.textDivBoton{
+    height: 50px;
+    width: 200px;
+    text-align: center;
+    margin-top: 30px;
+    border-radius: 10px;
+    background-color: rgba(18, 28, 59, 0.377);
+}
+
+li {
+    list-style-type: none;
+}
+
+th{
+    font-family: 'Amatic SC', cursive;
+}
+
+h5{
+    font-family: 'Amatic SC', cursive;
+}
+
+h3{
+    font-family: 'Amatic SC', cursive;
+}

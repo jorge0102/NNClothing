@@ -1,0 +1,34 @@
+.styleard{
+    width: 18rem;
+    display: inline-block;
+    margin: 25px;
+}
+
+.letraStock{
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ border-right: 1px red solid;
+}
+
+.botoCard{
+    margin-left: 17px;
+    
+}
+
+.cardAd{
+    text-align: center;
+}
+
+.h4Stock{
+    text-align: center;
+}
+
+.fondo{
+    background-color: #FFFAF2;
+
+}
+
+.stiloCard{
+    max-width: 840px;
+    width: 600px;
+    background-color: rgba(97, 89, 89, 0.452);
+}

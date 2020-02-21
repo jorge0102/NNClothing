@@ -1,0 +1,32 @@
+.colore{
+    background-color: #FFFAF2;
+}
+
+@media only screen and (max-width: 600px) {
+    .logo1 {
+        background-color:none;
+    }
+  }
+
+.logo1{
+    height: 80px;
+    width: 80px;
+    border: solid 3px black; 
+    border-radius: 50px;
+}
+
+.logo2{
+    height: 30px;
+    width: 30px;
+    border-radius: 50px;
+    margin: 20px;
+}
+
+.admin{
+    margin: 15px;
+}
+
+.logo3{
+    margin-right: 80px;
+}
+

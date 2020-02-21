@@ -1,0 +1,25 @@
+.principal{
+    background-color: #FFFAF2;
+}
+
+.image3{
+    height: 550px;
+    margin: 50px;
+    background-color: #FFFAF2;
+}
+
+.subDiv{
+    height: 250px;
+    width: 280px;
+    margin: 50px;
+    background-color: #FFFAF2;
+}
+
+.productoIm{
+    width: 100%;
+    background-color: #FFFAF2;
+}
+
+.letraVista{
+    font-family: 'Amatic SC', cursive;
+}

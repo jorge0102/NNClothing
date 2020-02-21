@@ -1,0 +1,19 @@
+.textFooter{
+    color: gainsboro;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.footer{
+    width: 100%;
+    height: 250px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.884);   
+}
+
+.redesSocial2{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    display: inline-table;
+    margin: 40px;  
+}

@@ -1,0 +1,59 @@
+.styleard{
+    width: 300px;
+    display: inline-block;
+    border: none;
+    background-color: #FFFAF2;
+
+
+}
+
+.textPrin{
+    color: #424242;
+    font-family: "Adobe Caslon Pro", "Hoefler Text", Georgia, Garamond, Times, serif;
+    letter-spacing:0.1em;
+    text-align:left;
+    margin: 40px auto;
+    text-transform: lowercase;
+    line-height: 145%;
+    font-size: 14pt;
+    font-variant: small-caps;
+}
+
+.botoCard{
+    margin-left: 17px;
+    background-color: #FFFAF2;
+
+}
+
+.cardAd{
+    text-align: center;
+    background-color: #FFFAF2;
+    margin-top: 35px;
+}
+
+.fondoI{
+    background-color: #FFFAF2;
+
+
+}
+
+.fluid3{
+    display: inline-table;
+
+}
+
+
+.publid{
+    border: 2px solid rgb(194, 19, 19);
+    height: 925px;
+}
+
+.marginText{
+    margin-top: 50px;
+    margin-left: 25px;
+}
+
+.imgPubli{
+    width: 100%;
+    height: 500px;
+}
